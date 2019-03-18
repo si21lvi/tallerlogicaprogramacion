@@ -1,0 +1,6 @@
+print("Este algoritmo determina la distancia recorrida por un objeto en un tiempo determinado")
+t=float(input("Digite el tiempo en segundos"))
+a=float(input("Digite l aceleración del objeto"))
+v=float(input("digte la velocidad del objeto"))
+x=(v*t)+((a*(t**2))/2)
+print("La distancia recorrida por el objeto es",x,"m")

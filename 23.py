@@ -1,0 +1,7 @@
+seg=int(input("Digite los segundos"))
+h=int(seg/3600)
+h1=int(seg%3600)
+m=int(h1/60)
+m1=int(h1%60)
+s= (m1)
+print("Las horas son",h,"Los minutos son",m,"Los segunods son:",s)

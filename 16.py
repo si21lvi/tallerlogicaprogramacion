@@ -1,0 +1,5 @@
+print("algoritmo que determina la velocidad final de un objeto luego de un tiempo")
+a=float(input("Digite la aceleración del objeto"))
+t=float(input("Digite el tiempo en segundos"))
+vf=0+(a*t)
+print("La velocidad final es:",vf)

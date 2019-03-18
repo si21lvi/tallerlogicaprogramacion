@@ -1,0 +1,5 @@
+print("Algoritmo que determina la energía (en Jules)")
+m=float(input("Digite la masa del objeto en kg"))
+c=float(input("Digite la velocidad de la luz en m/s"))
+e= m*(c**2)
+print("La energía es",e,"J")

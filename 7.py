@@ -1,0 +1,5 @@
+print("Este algoritmo le permite saber cual es la parte entera y decimal de un número")
+n=float(input("Digite un número"))
+entero= int(n)
+ed=float(n-entero)
+print("La parte entera es:",n,'\n'"La parte decimal es",ed)
